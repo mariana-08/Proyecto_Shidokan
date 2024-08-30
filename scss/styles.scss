@@ -1,0 +1,30 @@
+@import "utilities/base.scss";
+
+body {
+  font-family: $fuentetext;
+  color: $colorprimario; 
+
+    h1 {
+        font-family: $fuente1;
+        font-size: 4rem;
+        color: $colordorado;
+    }
+    h2 {
+    font-family: $fuente1; 
+    font-size: 3rem;
+    color: $colordorado;
+    padding: 10px 0;
+    }
+    h3 {
+        font-family: $fuente1; 
+        font-size: 1.7em;
+        color: $colorprimario;
+        padding: 10px 0;
+    }
+    h4 {
+        font-family: $fuente1; 
+        font-size: 1.6rem;
+        color: $colorprimario;
+        padding: 10px 0;
+    }
+}
