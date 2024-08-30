@@ -35,11 +35,9 @@ h4 {
   color:#333;
   padding: 10px 0;
 }
-
 .historia,.instructores,.galeria,.calendario,.contacto {
   margin-bottom: 3rem;
 }
-
   /*header  */
 header .superior {
   border-bottom: 1px solid #ddd;
@@ -48,24 +46,20 @@ header .superior {
   width: 40%;
   margin: 10px 0;  
 }
-
 .logodojo {
   display: flex;
   justify-content: space-around;
 }
-
 .head-dojo {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 .rs {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 header .redes {
   font-size: 0;
   display: flex;
@@ -229,8 +223,6 @@ i.bi.bi-send-check {
 }
 
 
-
-
 /* footer */
 footer.footer{
   background-color:#3C3C3B;
@@ -279,7 +271,6 @@ footer.footer{
   padding: 10px; 
 }
 
-
  
 /* @medias */
 @media (min-width: 992px)  { 
@@ -296,6 +287,9 @@ footer.footer{
   .head-dojo h1{
     font-size: 2.7rem;
    } 
+   h2 {   
+    font-size: 2rem;
+   }
   .log {
     width: 60%;
     margin: 10px 0;
