@@ -66,20 +66,17 @@ header .rs {
  padding: 10px;
 }
 .rrss img{
-  width:30px;
-  height:30px;
+  width:32px;
+  height:32px;
   margin-top: 10px;  
 }
  .rs a {
   font-size: 0;
   display: block;
-  background-repeat: no-repeat;
-  background-position: 50%;
-  background-size: contain;
-  transition: transform 0.2s ease;  
+  transition: transform 0.3s ease;  
  }
 .rs a:hover {
-  transform: scale(1.2);
+  transform: scale(1.3);
 }
 
 .menu-principal {
@@ -145,7 +142,8 @@ p.import {
   color: #fff; 
   padding: 30px 10px;
   margin: 1.5rem;  
-  background-color: #031e2b;
+  background-image: linear-gradient(to bottom, #031e2b, #1b678d);
+  
 }
 
 /* historia */
@@ -244,13 +242,18 @@ footer.footer{
   align-items: center;
   justify-content: center;
 }
-.rrss {
-  text-decoration:none;
- padding: 10px;
+.foot-rs a {
+  font-size: 0;
+  display: block;
+  transition: transform 0.3s ease;  
+ }
+.foot-rs a:hover {
+  transform: scale(1.3);
 }
+
 .rrss img{
-  width:30px;
-  height:30px;
+  width:32px;
+  height:32px;
   margin-top: 10px;  
 }
 .Copyright {  
