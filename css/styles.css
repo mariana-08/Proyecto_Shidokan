@@ -40,6 +40,7 @@ body h4 {
   margin-bottom: 3rem;
 }
 
+/*header*/
 header {
   /* navbar- toggler */
 }
@@ -69,20 +70,17 @@ header .rrss {
   padding: 10px;
 }
 header .rrss img {
-  width: 30px;
-  height: 30px;
+  width: 32px;
+  height: 32px;
   margin-top: 10px;
 }
 header .rs a {
   font-size: 0;
   display: block;
-  background-repeat: no-repeat;
-  background-position: 50%;
-  background-size: contain;
-  transition: transform 0.2s ease;
+  transition: transform 0.3s ease;
 }
 header .rs a:hover {
-  transform: scale(1.2);
+  transform: scale(1.3);
 }
 header .menu-principal {
   background-color: #232f3b;
@@ -118,6 +116,245 @@ header #mainNav .navbar-toggler:hover {
 }
 header .navbar-toggler:focus {
   box-shadow: none;
+}
+
+/* footer */
+footer.footer {
+  background-color: #3C3C3B;
+  color: #fff;
+}
+
+.foot-log {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0 10px;
+}
+
+.foot-log img {
+  width: 25%;
+}
+
+.tit {
+  font-size: 2rem;
+  font-family: "Alexandria";
+  margin-bottom: 0;
+}
+
+.foot-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.foot-rs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.foot-rs a {
+  font-size: 0;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.foot-rs a:hover {
+  transform: scale(1.3);
+}
+
+.rrss img {
+  width: 32px;
+  height: 32px;
+  margin-top: 10px;
+}
+
+.Copyright {
+  border-top: solid 1px #ddd;
+}
+
+.copy {
+  text-align: center;
+  padding: 10px;
+}
+
+/* @medias */
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: center;
+  }
+}
+@media (max-width: 991px) {
+  .head-dojo h1 {
+    font-size: 2.7rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  .log {
+    width: 60%;
+    margin: 10px 0;
+  }
+  .menu-principal {
+    background-color: #fff;
+  }
+  .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #b4b469;
+    font-weight: 900;
+  }
+  .nav-link {
+    color: #333;
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #b4b469;
+  }
+  .rs {
+    display: none;
+  }
+  /* historia */
+  .hist-im {
+    display: flex;
+    align-items: center;
+  }
+  .tani2 {
+    display: none;
+  }
+  .tani3 {
+    display: flex;
+  }
+  /* footer */
+  .foot-log {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .foot-log img {
+    width: 40%;
+  }
+  .tit {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 768px) {
+  .hist-im {
+    display: flex;
+    justify-content: space-around;
+  }
+  .tani2 {
+    display: flex;
+  }
+  .tani3 {
+    display: none;
+  }
+  .foot-log img {
+    width: 25%;
+  }
+  .foot-log {
+    padding: 10px 0 0;
+  }
+}
+/*  inicio */
+.conten-slider img {
+  margin: 0px;
+  width: 100%;
+}
+
+.barra-titulo {
+  margin-top: 30px;
+  background-color: #f3f6f5;
+}
+
+.test {
+  margin-top: 1rem;
+  font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.profes {
+  font-style: italic;
+}
+
+p.import {
+  font-family: "Alexandria";
+  font-size: 26px;
+  text-align: center;
+  color: #fff;
+  padding: 30px 10px;
+  margin: 1.5rem;
+  background-image: linear-gradient(to bottom, #031e2b, #1b678d);
+}
+
+/* historia */
+.card-title {
+  font-size: 1.5rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.tani3 {
+  display: none;
+}
+
+/* instructores */
+.card {
+  margin-bottom: 2rem;
+  border-color: #b4b469;
+}
+
+.img-thumbnail {
+  border: 0;
+  border-radius: 0;
+}
+
+/* galeria */
+.card1 {
+  overflow: hidden;
+}
+
+.card-img-top {
+  transition: transform 0.3s ease;
+}
+
+.card-img-top:hover {
+  transform: scale(1.05);
+}
+
+/* calendario */
+.table thead th {
+  background-color: #b4b469;
+  color: #3C3C3B;
+  padding: 16px 8px;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+tbody {
+  font-size: 16px;
+}
+
+/* contacto */
+.contacto button[type=submit] {
+  background: #333;
+  border-color: #fff;
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  transition: 0.4s;
+}
+
+.contacto button[type=submit]:hover {
+  background: #333;
+  border-color: #fff;
+  font-size: 21px;
+  color: #fff;
+}
+
+i.bi.bi-send-check {
+  color: #b4b469;
 }
 
 /*# sourceMappingURL=styles.css.map */

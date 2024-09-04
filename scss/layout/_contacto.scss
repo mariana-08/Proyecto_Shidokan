@@ -1,0 +1,21 @@
+/* contacto */
+//contacto
+.contacto button[type=submit] {
+    background: #333; 
+    border-color: #fff;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: 600; 
+    font-size: 20px;  
+    transition: 0.4s; 
+  }
+  .contacto button[type=submit]:hover {
+    background: #333;
+    border-color: #fff;
+    font-size: 21px; 
+    color: #fff;
+  }
+  i.bi.bi-send-check {
+    color: #b4b469;
+  }
+  

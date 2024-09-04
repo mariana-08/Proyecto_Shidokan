@@ -122,7 +122,6 @@ header .rs {
   margin: 0px;
   width: 100%;
 }
-
 .barra-titulo {
   margin-top: 30px; 
   background-color: #f3f6f5;
@@ -158,7 +157,6 @@ p.import {
 /* instructores */
 .card {
   margin-bottom: 2rem;
-  /* border-radius: 0%; */
   border-color: #b4b469;
 }
 .img-thumbnail {
@@ -274,8 +272,6 @@ footer.footer{
   }
  
 }
-/*  */
-
 @media (max-width: 991px) {
   .head-dojo h1{
     font-size: 2.7rem;
@@ -328,7 +324,6 @@ footer.footer{
     font-size: 1.8rem;  
   }
 }
-
 @media (max-width: 768px) {
   .hist-im {
     display: flex;
@@ -340,7 +335,6 @@ footer.footer{
   .tani3 {
     display: none;
   }
-
   .foot-log img {
     width: 25%;
   }
