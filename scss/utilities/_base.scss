@@ -6,5 +6,49 @@
 
 $colordorado:#b4b469;
 $colorprimario:#333333;
+$colordorado:#b4b469;
 $fuente1:"Alexandria", sans-serif;
 $fuentetext:"Lato", sans-serif;
+
+//como ver el padding de h2,h3,h4 con extend
+%relleno {
+    padding: 10px 0;
+}
+//
+//seguimos con declaraciones
+body {
+    font-family: $fuentetext;
+    color: $colorprimario; 
+  
+      h1 {
+          font-family: $fuente1;
+          font-size: 4rem;
+          color: $colordorado;
+      }
+      h2 {
+      font-family: $fuente1; 
+      font-size: 3rem;
+      color: $colordorado;
+      @extend%relleno;
+      }
+      h3 {
+          font-family: $fuente1; 
+          font-size: 1.7em;
+          color: $colorprimario;
+          @extend%relleno;
+      }
+      h4 {
+          font-family: $fuente1; 
+          font-size: 1.6rem;
+          color: $colorprimario;
+          @extend%relleno;
+      }
+  }
+  
+  .historia,
+  .instructores,
+  .galeria,
+  .calendario,
+  .contacto {
+    margin-bottom: 3rem;
+  }

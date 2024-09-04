@@ -55,32 +55,33 @@ header .superior {
   align-items: center;
   justify-content: center;
 }
-.rs {
+
+header .rs { 
   display: flex;
   align-items: center;
   justify-content: center;
 }
-header .redes {
-  font-size: 0;
-  display: flex;
-  align-items: center;
+.rrss {
+  text-decoration:none;
+ padding: 10px;
 }
-header .redes a {
+.rrss img{
+  width:30px;
+  height:30px;
+  margin-top: 10px;  
+}
+ .rs a {
   font-size: 0;
   display: block;
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: contain;
-  transition: transform 0.2s ease;
-  width: 30px;
-  height: 30px;
-}
-header .redes li {
-  margin: 0 3px;
-}
-.redes a:hover {
+  transition: transform 0.2s ease;  
+ }
+.rs a:hover {
   transform: scale(1.2);
 }
+
 .menu-principal {
   background-color: #232f3b;
 }
@@ -120,16 +121,9 @@ header .redes li {
 }
 
 /*  inicio */
-/* .contenedor {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 10px;
-} */
-
 .conten-slider img{ 
   margin: 0px;
   width: 100%;
-  /* height: 550px;    */
 }
 
 .barra-titulo {
@@ -153,8 +147,8 @@ p.import {
   margin: 1.5rem;  
   background-color: #031e2b;
 }
-/* historia */
 
+/* historia */
 .card-title {
   font-size: 1.5rem;
   font-family: "Josefin Sans",sans-serif;
@@ -163,9 +157,7 @@ p.import {
   display: none;
 }
 
-
 /* instructores */
-
 .card {
   margin-bottom: 2rem;
   /* border-radius: 0%; */
@@ -175,7 +167,6 @@ p.import {
   border: 0;
   border-radius: 0; 
 }
-/* 
 
 /* galeria */
 .card1 {
@@ -187,7 +178,6 @@ p.import {
 .card-img-top:hover {
   transform: scale(1.05);
 }
-/* 
 
 /* calendario */ 
 .table thead th {    

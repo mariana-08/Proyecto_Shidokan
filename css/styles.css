@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+body h4, body h3, body h2 {
+  padding: 10px 0;
+}
+
 body {
   font-family: "Lato", sans-serif;
   color: #333333;
@@ -16,19 +20,104 @@ body h2 {
   font-family: "Alexandria", sans-serif;
   font-size: 3rem;
   color: #b4b469;
-  padding: 10px 0;
 }
 body h3 {
   font-family: "Alexandria", sans-serif;
   font-size: 1.7em;
   color: #333333;
-  padding: 10px 0;
 }
 body h4 {
   font-family: "Alexandria", sans-serif;
   font-size: 1.6rem;
   color: #333333;
-  padding: 10px 0;
+}
+
+.historia,
+.instructores,
+.galeria,
+.calendario,
+.contacto {
+  margin-bottom: 3rem;
+}
+
+header {
+  /* navbar- toggler */
+}
+header .superior {
+  border-bottom: 1px solid #ddd;
+}
+header .log {
+  width: 40%;
+  margin: 10px 0;
+}
+header .logodojo {
+  display: flex;
+  justify-content: space-around;
+}
+header .head-dojo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .rs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .rrss {
+  text-decoration: none;
+  padding: 10px;
+}
+header .rrss img {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+}
+header .rs a {
+  font-size: 0;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: contain;
+  transition: transform 0.2s ease;
+}
+header .rs a:hover {
+  transform: scale(1.2);
+}
+header .menu-principal {
+  background-color: #232f3b;
+}
+header .nav-link {
+  color: white;
+  font-weight: bold;
+}
+header .navbar-nav .nav-link.active,
+header .navbar-nav .nav-link.show {
+  color: white;
+  font-weight: bold;
+}
+header .nav-link:focus,
+header .nav-link:hover {
+  color: #b4b469;
+  font-weight: bold;
+}
+header .navbar > .container, header .navbar > .container-fluid, header .navbar > .container-lg, header .navbar > .container-md, header .navbar > .container-sm, header .navbar > .container-xl, header .navbar > .container-xxl {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: flex-end;
+}
+header #mainNav .navbar-toggler {
+  padding: 15px;
+  text-transform: uppercase;
+  color: #b4b469;
+  border-color: #b4b469;
+}
+header #mainNav .navbar-toggler:hover {
+  text-decoration: none;
+}
+header .navbar-toggler:focus {
+  box-shadow: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
