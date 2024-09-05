@@ -36,14 +36,14 @@
     font-size: 2rem;
    }   
   /* historia */
-  section .hist-im {
+  section .historia .hist-im {
     display: flex;
     align-items: center;
   }
-  section .tani2 {
+  section .historia .tani2 {
     display: none;
   }
-  section .tani3 {
+  section .historia .tani3 {
     display: flex;
   }
 
@@ -62,14 +62,14 @@
 }
 
 @media (max-width: 768px) {
-  section .hist-im {
+  section .historia .hist-im {
     display: flex;
     justify-content: space-around;
   }
-  section  .tani2 {
+  section .historia  .tani2 {
     display: flex;
   }
-  section .tani3 {
+  section .historia .tani3 {
     display: none;
   }
 footer .foot-log img {
