@@ -41,80 +41,94 @@ body h4 {
 }
 
 /*header*/
-header {
-  /* navbar- toggler */
-}
-header .superior {
+.superior {
   border-bottom: 1px solid #ddd;
 }
-header .log {
+
+.log {
   width: 40%;
   margin: 10px 0;
 }
-header .logodojo {
+
+.logodojo {
   display: flex;
   justify-content: space-around;
 }
-header .head-dojo {
+
+.head-dojo {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-header .rs {
+
+.rs {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-header .rrss {
+
+.rrss {
   text-decoration: none;
   padding: 10px;
 }
-header .rrss img {
+
+.rrss img {
   width: 32px;
   height: 32px;
   margin-top: 10px;
 }
-header .rs a {
+
+.rs a {
   font-size: 0;
   display: block;
   transition: transform 0.3s ease;
 }
-header .rs a:hover {
+
+.rs a:hover {
   transform: scale(1.3);
 }
-header .menu-principal {
+
+.menu-principal {
   background-color: #232f3b;
 }
-header .nav-link {
+
+.nav-link {
   color: white;
   font-weight: bold;
 }
-header .navbar-nav .nav-link.active,
-header .navbar-nav .nav-link.show {
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
   color: white;
   font-weight: bold;
 }
-header .nav-link:focus,
-header .nav-link:hover {
+
+.nav-link:focus,
+.nav-link:hover {
   color: #b4b469;
   font-weight: bold;
 }
-header .navbar > .container, header .navbar > .container-fluid, header .navbar > .container-lg, header .navbar > .container-md, header .navbar > .container-sm, header .navbar > .container-xl, header .navbar > .container-xxl {
+
+/* navbar- toggler */
+.navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
   display: flex;
   flex-wrap: inherit;
   align-items: center;
   justify-content: flex-end;
 }
-header #mainNav .navbar-toggler {
+
+#mainNav .navbar-toggler {
   padding: 15px;
   text-transform: uppercase;
   color: #b4b469;
   border-color: #b4b469;
 }
-header #mainNav .navbar-toggler:hover {
+
+#mainNav .navbar-toggler:hover {
   text-decoration: none;
 }
-header .navbar-toggler:focus {
+
+.navbar-toggler:focus {
   box-shadow: none;
 }
 
