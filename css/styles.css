@@ -223,7 +223,7 @@ footer.footer {
     font-size: 2rem;
   }
   /* historia */
-  section .hist-im {
+  .historia .hist-im {
     display: flex;
     align-items: center;
   }
