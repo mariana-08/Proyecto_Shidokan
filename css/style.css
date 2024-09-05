@@ -270,9 +270,6 @@ footer.footer{
   .head-dojo h1{
     font-size: 2.7rem;
    } 
-   h2 {   
-    font-size: 2rem;
-   }
   .log {
     width: 60%;
     margin: 10px 0;
@@ -293,6 +290,9 @@ footer.footer{
   header .rs{
     display: none;
   }
+  h2 {   
+    font-size: 2rem;
+   }   
   /* historia */
   .hist-im {
     display: flex;
