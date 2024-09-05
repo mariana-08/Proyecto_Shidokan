@@ -148,28 +148,6 @@ footer.footer {
   margin-top: 10px;
 }
 
-.foot-rs {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.foot-rs a {
-  font-size: 0;
-  display: block;
-  transition: transform 0.3s ease;
-}
-
-.foot-rs a:hover {
-  transform: scale(1.3);
-}
-
-.rrss img {
-  width: 32px;
-  height: 32px;
-  margin-top: 10px;
-}
-
 .Copyright {
   border-top: solid 1px #ddd;
 }
