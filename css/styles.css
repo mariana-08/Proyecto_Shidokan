@@ -223,14 +223,14 @@ footer.footer {
     font-size: 2rem;
   }
   /* historia */
-  section .historia .hist-im {
+  section .hist-im {
     display: flex;
     align-items: center;
   }
-  section .historia .tani2 {
+  .historia .tani2 {
     display: none;
   }
-  section .historia .tani3 {
+  .historia .tani3 {
     display: flex;
   }
   /* footer */
