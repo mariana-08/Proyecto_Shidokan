@@ -162,19 +162,19 @@ footer.footer {
   margin-top: 10px;
 }
 
-foot-rs {
+.foot-rs {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-foot-rs a {
+.foot-rs a {
   font-size: 0;
   display: block;
   transition: transform 0.3s ease;
 }
 
-foot-rs a:hover {
+.foot-rs a:hover {
   transform: scale(1.3);
 }
 
