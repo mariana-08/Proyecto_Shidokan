@@ -2,20 +2,24 @@
 /* @medias */
 
 @media (min-width: 992px)  { 
-  .navbar-expand-lg .navbar-collapse {
+  header .navbar-expand-lg .navbar-collapse {
     display: flex !important;
     flex-basis: auto;
     justify-content: center;
   } 
 }
 @media (max-width: 991px) {
-  header .head-dojo h1{
-    font-size: 2.7rem;
-   } 
-   header.log {
+  .logodojo .log {
     width: 60%;
     margin: 10px 0;
   }
+  header .head-dojo h1{
+    font-size: 2.7rem;
+   } 
+   header .head-dojo {
+    display: flex;
+    align-items: center;
+  } 
   header .menu-principal {
     background-color: #fff;
   }
@@ -36,9 +40,10 @@
     font-size: 2rem;
    }   
   /* historia */
-  .historia .hist-im {
+  section .hist-im {
     display: flex;
     align-items: center;
+    justify-content: center;
   }
   .historia .tani2 {
     display: none;
@@ -62,17 +67,17 @@
 }
 
 @media (max-width: 768px) {
-  section .historia .hist-im {
+  .historia .hist-im {
     display: flex;
     justify-content: space-around;
   }
-  section .historia  .tani2 {
+  .historia .tani2 {
     display: flex;
   }
-  section .historia .tani3 {
+  .historia .tani3 {
     display: none;
   }
-footer .foot-log img {
+  footer .foot-log img {
     width: 25%;
   }
   footer  .foot-log{
