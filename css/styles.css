@@ -257,10 +257,10 @@ footer.footer {
     justify-content: space-around;
   }
   .historia .tani2 {
-    display: flex;
+    display: none;
   }
   .historia .tani3 {
-    display: none;
+    display: flex;
   }
   footer .foot-log img {
     width: 25%;
