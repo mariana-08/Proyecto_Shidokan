@@ -3,7 +3,6 @@
     margin: 0;
     padding:0;
 }
-
 $colordorado:#b4b469;
 $colorprimario:#333333;
 $white:#fff;
@@ -14,7 +13,7 @@ $fuentetext:"Lato", sans-serif;
 // _extends.scss
 %text-center {
     text-align: center;
-  }
+}
 
 // Usar mixin para mayor flexibilidad
 @mixin relleno($padding: 10px 0) {

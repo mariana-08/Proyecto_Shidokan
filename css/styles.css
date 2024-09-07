@@ -246,24 +246,26 @@ footer.footer .foot-text {
   flex-direction: column;
   margin-top: 10px;
 }
-footer.footer .foot-rs {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-footer.footer .foot-rs a {
-  font-size: 0;
-  display: block;
-  transition: transform 0.3s ease;
-}
-footer.footer .foot-rs a:hover {
-  transform: scale(1.3);
-}
 footer.footer .Copyright {
   border-top: solid 1px #ddd;
 }
 footer.footer .copy {
   padding: 10px;
+}
+
+.foot-rs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.foot-rs a {
+  font-size: 0;
+  display: block;
+  transition: transform 0.3s ease;
+}
+.foot-rs a:hover {
+  transform: scale(1.3);
 }
 
 /* @medias */
@@ -275,16 +277,12 @@ footer.footer .copy {
   }
 }
 @media (max-width: 991px) {
-  .logodojo .log {
+  header .logodojo .log {
     width: 60%;
     margin: 10px 0;
   }
   header .head-dojo h1 {
     font-size: 2.7rem;
-  }
-  header .head-dojo {
-    display: flex;
-    align-items: center;
   }
   header .menu-principal {
     background-color: #fff;
@@ -294,10 +292,10 @@ footer.footer .copy {
     font-weight: 900;
   }
   header .nav-link {
-    color: #333;
     text-align: center;
+    color: #333333;
     padding: 15px 0;
-    border-bottom: 1px solid #b4b469;
+    border-bottom: 1px solid #333333;
   }
   header .rs {
     display: none;
@@ -320,8 +318,8 @@ footer.footer .copy {
   /* footer */
   footer .foot-log {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
   }
   footer .foot-log img {
     width: 40%;
@@ -348,7 +346,7 @@ footer.footer .copy {
     width: 25%;
   }
   footer .foot-log {
-    padding: 10px 0 0;
+    padding: 10px 0;
   }
 }
 
