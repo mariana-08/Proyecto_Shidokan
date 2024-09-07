@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+footer.footer .copy, .table thead th, p.import {
+  text-align: center;
+}
+
 body {
   font-family: "Lato", sans-serif;
   color: #333333;
@@ -38,35 +42,40 @@ body h4 {
 }
 
 /*header*/
-.superior {
+header .superior {
   border-bottom: 1px solid #ddd;
 }
-
-.log {
+header .log {
   width: 40%;
   margin: 10px 0;
 }
-
-.logodojo {
+header .logodojo {
   display: flex;
+  align-items: center;
+  justify-content: center;
   justify-content: space-around;
 }
-
-.head-dojo {
+header .head-dojo {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
-.rs {
+header .rs {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
-.rrss {
+header .rrss {
   text-decoration: none;
   padding: 10px;
+}
+header .rs a {
+  font-size: 0;
+  display: block;
+  transition: transform 0.3s ease;
+}
+header:hover {
+  transform: scale(1.3);
 }
 
 .rrss img {
@@ -75,38 +84,23 @@ body h4 {
   margin-top: 10px;
 }
 
-.rs a {
-  font-size: 0;
-  display: block;
-  transition: transform 0.3s ease;
-}
-
-.rs a:hover {
-  transform: scale(1.3);
-}
-
 .menu-principal {
   background-color: #232f3b;
 }
 
-.nav-link {
+.navbar-nav .nav-link {
   color: white;
   font-weight: bold;
 }
-
-.navbar-nav .nav-link.active,
-.navbar-nav .nav-link.show {
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
   color: white;
   font-weight: bold;
 }
-
-.nav-link:focus,
-.nav-link:hover {
+.navbar-nav .nav-link:focus, .navbar-nav .nav-link:hover {
   color: #b4b469;
   font-weight: bold;
 }
 
-/* navbar- toggler */
 .navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
   display: flex;
   flex-wrap: inherit;
@@ -120,13 +114,110 @@ body h4 {
   color: #b4b469;
   border-color: #b4b469;
 }
-
-#mainNav .navbar-toggler:hover {
+#mainNav:hover {
   text-decoration: none;
 }
-
-.navbar-toggler:focus {
+#mainNav:focus {
   box-shadow: none;
+}
+
+/*  inicio */
+.conten-slider img {
+  margin: 0px;
+  width: 100%;
+}
+
+.barra-titulo {
+  margin-top: 30px;
+  background-color: #f3f6f5;
+}
+
+.test {
+  margin-top: 1rem;
+  font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.profes {
+  font-style: italic;
+}
+
+p.import {
+  font-family: "Alexandria", sans-serif;
+  font-size: 26px;
+  color: #fff;
+  padding: 30px 10px;
+  margin: 1.5rem;
+  background-image: linear-gradient(to bottom, #031e2b, #1b678d);
+}
+
+/* historia */
+.card-title {
+  font-size: 1.5rem;
+  font-family: "Lato", sans-serif;
+}
+
+.tani3 {
+  display: none;
+}
+
+/* instructores */
+.card {
+  margin-bottom: 2rem;
+  border-color: #b4b469;
+}
+
+.img-thumbnail {
+  border: 0;
+  border-radius: 0;
+}
+
+/* galeria */
+.card1 {
+  overflow: hidden;
+}
+
+.card-img-top {
+  transition: transform 0.3s ease;
+}
+
+.card-img-top:hover {
+  transform: scale(1.05);
+}
+
+/* calendario */
+.table thead th {
+  background-color: #b4b469;
+  color: #3C3C3B;
+  padding: 16px 8px;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+}
+
+tbody {
+  font-size: 16px;
+}
+
+/* contacto */
+.contacto button[type=submit] {
+  background: #333333;
+  border-color: #fff;
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  transition: 0.4s;
+}
+
+.contacto button[type=submit]:hover {
+  background: #333333;
+  border-color: #fff;
+  font-size: 21px;
+  color: #fff;
+}
+
+i.bi.bi-send-check {
+  color: #b4b469;
 }
 
 /* footer */
@@ -134,53 +225,44 @@ footer.footer {
   background-color: #3C3C3B;
   color: #fff;
 }
-
-.foot-log {
+footer.footer .foot-log {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 15px 0 10px;
 }
-
-.foot-log img {
+footer.footer .foot-log img {
   width: 25%;
 }
-
-.tit {
+footer.footer .tit {
   font-size: 2rem;
   font-family: "Alexandria";
   margin-bottom: 0;
 }
-
-.foot-text {
+footer.footer .foot-text {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
   margin-top: 10px;
 }
-
-.foot-rs {
+footer.footer .foot-rs {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
-.foot-rs a {
+footer.footer .foot-rs a {
   font-size: 0;
   display: block;
   transition: transform 0.3s ease;
 }
-
-.foot-rs a:hover {
+footer.footer .foot-rs a:hover {
   transform: scale(1.3);
 }
-
-.Copyright {
+footer.footer .Copyright {
   border-top: solid 1px #ddd;
 }
-
-.copy {
-  text-align: center;
+footer.footer .copy {
   padding: 10px;
 }
 
@@ -268,106 +350,6 @@ footer.footer {
   footer .foot-log {
     padding: 10px 0 0;
   }
-}
-/*  inicio */
-.conten-slider img {
-  margin: 0px;
-  width: 100%;
-}
-
-.barra-titulo {
-  margin-top: 30px;
-  background-color: #f3f6f5;
-}
-
-.test {
-  margin-top: 1rem;
-  font-size: 20px;
-  font-family: "Josefin Sans", sans-serif;
-}
-
-.profes {
-  font-style: italic;
-}
-
-p.import {
-  font-family: "Alexandria";
-  font-size: 26px;
-  text-align: center;
-  color: #fff;
-  padding: 30px 10px;
-  margin: 1.5rem;
-  background-image: linear-gradient(to bottom, #031e2b, #1b678d);
-}
-
-/* historia */
-.card-title {
-  font-size: 1.5rem;
-  font-family: "Josefin Sans", sans-serif;
-}
-
-.tani3 {
-  display: none;
-}
-
-/* instructores */
-.card {
-  margin-bottom: 2rem;
-  border-color: #b4b469;
-}
-
-.img-thumbnail {
-  border: 0;
-  border-radius: 0;
-}
-
-/* galeria */
-.card1 {
-  overflow: hidden;
-}
-
-.card-img-top {
-  transition: transform 0.3s ease;
-}
-
-.card-img-top:hover {
-  transform: scale(1.05);
-}
-
-/* calendario */
-.table thead th {
-  background-color: #b4b469;
-  color: #3C3C3B;
-  padding: 16px 8px;
-  text-align: center;
-  font-size: 18px;
-  font-family: "Josefin Sans", sans-serif;
-}
-
-tbody {
-  font-size: 16px;
-}
-
-/* contacto */
-.contacto button[type=submit] {
-  background: #333;
-  border-color: #fff;
-  padding: 10px 20px;
-  color: #fff;
-  font-weight: 600;
-  font-size: 20px;
-  transition: 0.4s;
-}
-
-.contacto button[type=submit]:hover {
-  background: #333;
-  border-color: #fff;
-  font-size: 21px;
-  color: #fff;
-}
-
-i.bi.bi-send-check {
-  color: #b4b469;
 }
 
 /*# sourceMappingURL=styles.css.map */

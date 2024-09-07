@@ -1,12 +1,14 @@
+@import "utilities/variables.scss";
 @import "utilities/base.scss";
 @import "utilities/generales.scss";
-@import "utilities/medias.scss";
 @import "layout/inicio.scss";
 @import "layout/historia.scss";
 @import "layout/instructores.scss";
 @import "layout/galeria.scss";
 @import "layout/calendario.scss";
 @import "layout/contacto.scss";
+@import "utilities/footer";
+@import "utilities/medias.scss";
 
 
 

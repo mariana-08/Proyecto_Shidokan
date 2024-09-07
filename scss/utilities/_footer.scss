@@ -1,0 +1,45 @@
+//footer
+/* footer */
+footer.footer{
+    background-color:#3C3C3B;
+    color: $white;
+  
+    .foot-log {
+        @include flex-center;
+        padding: 15px 0 10px; 
+        img {
+            width: 25%;
+        }
+    }
+
+    .tit {
+        font-size: 2rem;
+        font-family: "Alexandria";
+        margin-bottom: 0;
+    }
+    .foot-text {
+        @include flex-center;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .foot-rs { 
+        @include flex-center;
+    
+        a {
+            font-size: 0;
+            display: block;
+            transition: transform 0.3s ease;      
+            &:hover {
+            transform: scale(1.3);
+            }
+        }
+    }
+
+  .Copyright {  
+    border-top:solid 1px #ddd;
+  }
+  .copy {   
+    @extend %text-center;
+    padding: 10px; 
+  }
+}

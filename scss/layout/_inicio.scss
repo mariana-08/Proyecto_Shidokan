@@ -11,16 +11,16 @@
   .test{
     margin-top: 1rem;
     font-size: 20px;
-    font-family: "Josefin Sans", sans-serif
+    font-family: $fuente2;
   }
   .profes {  
     font-style: italic;
   }
   p.import {
-    font-family: 'Alexandria';
+    font-family: $fuente1;
     font-size: 26px;
-    text-align: center;
-    color: #fff; 
+    @extend %text-center;
+    color: $white; 
     padding: 30px 10px;
     margin: 1.5rem;  
     background-image: linear-gradient(to bottom, #031e2b, #1b678d);
