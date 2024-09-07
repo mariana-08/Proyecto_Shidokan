@@ -55,7 +55,7 @@
     @include flex-center;
   }
   footer .foot-log img {
-    width: 40%;
+    width: 45%;
   }
   footer .tit {
     font-size: 1.8rem;  
@@ -79,7 +79,7 @@
   footer .foot-log img {
     width: 25%;
   }
-  footer  .foot-log{
+  footer  .foot-log {
     @include relleno;
   }
 }
