@@ -141,17 +141,17 @@ footer.footer .foot-log {
 footer.footer .foot-log img {
   width: 25%;
 }
-footer.footer .tit {
-  font-size: 2rem;
-  font-family: "Alexandria", sans-serif;
-  margin-bottom: 0;
-}
 footer.footer .foot-text {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   margin-top: 10px;
+}
+footer.footer .foot-text .tit {
+  font-size: 2rem;
+  font-family: "Alexandria", sans-serif;
+  margin-bottom: 0;
 }
 footer.footer .f-rrss {
   text-decoration: none;
@@ -238,7 +238,7 @@ footer.footer .copy {
   footer .foot-log img {
     width: 45%;
   }
-  footer .tit {
+  footer .foot-text .tit {
     font-size: 1.8rem;
   }
 }

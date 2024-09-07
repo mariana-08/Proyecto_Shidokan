@@ -11,17 +11,18 @@ footer.footer{
    
   .foot-log img {
       width: 25%;
-    }
+    }  
   
-  .tit {
-    font-size: 2rem;
-    font-family: $fuente1;
-    margin-bottom: 0;
-  }
   .foot-text {
     @include flex-center;
     flex-direction: column;
     margin-top: 10px;
+
+    .tit {
+      font-size: 2rem;
+      font-family: $fuente1;
+      margin-bottom: 0;
+    }
   }
   .f-rrss {
     text-decoration:none;
