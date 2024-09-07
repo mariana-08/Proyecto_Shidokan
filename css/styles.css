@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-.table thead th, p.import, footer.footer .copy {
+footer.footer .copy, .table thead th, p.import {
   text-align: center;
 }
 
@@ -125,6 +125,105 @@ header .rrss img {
 
 .navbar-toggler:focus {
   box-shadow: none;
+}
+
+/*  inicio */
+.conten-slider img {
+  margin: 0px;
+  width: 100%;
+}
+
+.barra-titulo {
+  margin-top: 30px;
+  background-color: #f3f6f5;
+}
+
+.test {
+  margin-top: 1rem;
+  font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.profes {
+  font-style: italic;
+}
+
+p.import {
+  font-family: "Alexandria", sans-serif;
+  font-size: 26px;
+  color: #fff;
+  padding: 30px 10px;
+  margin: 1.5rem;
+  background-image: linear-gradient(to bottom, #031e2b, #1b678d);
+}
+
+/* historia */
+.card-title {
+  font-size: 1.5rem;
+  font-family: "Lato", sans-serif;
+}
+
+.tani3 {
+  display: none;
+}
+
+/* instructores */
+.card {
+  margin-bottom: 2rem;
+  border-color: #b4b469;
+}
+
+.img-thumbnail {
+  border: 0;
+  border-radius: 0;
+}
+
+/* galeria */
+.card1 {
+  overflow: hidden;
+}
+
+.card-img-top {
+  transition: transform 0.3s ease;
+}
+
+.card-img-top:hover {
+  transform: scale(1.05);
+}
+
+/* calendario */
+.table thead th {
+  background-color: #b4b469;
+  color: #3C3C3B;
+  padding: 16px 8px;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+}
+
+tbody {
+  font-size: 16px;
+}
+
+/* contacto */
+.contacto button[type=submit] {
+  background: #333333;
+  border-color: #fff;
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  transition: 0.4s;
+}
+
+.contacto button[type=submit]:hover {
+  background: #333333;
+  border-color: #fff;
+  font-size: 21px;
+  color: #fff;
+}
+
+i.bi.bi-send-check {
+  color: #b4b469;
 }
 
 /* footer */
@@ -269,104 +368,6 @@ footer.footer .copy {
   footer .foot-log {
     padding: 10px 0;
   }
-}
-/*  inicio */
-.conten-slider img {
-  margin: 0px;
-  width: 100%;
-}
-
-.barra-titulo {
-  margin-top: 30px;
-  background-color: #f3f6f5;
-}
-
-.test {
-  margin-top: 1rem;
-  font-size: 20px;
-  font-family: "Josefin Sans", sans-serif;
-}
-
-.profes {
-  font-style: italic;
-}
-
-p.import {
-  font-family: "Alexandria", sans-serif;
-  font-size: 26px;
-  color: #fff;
-  padding: 30px 10px;
-  margin: 1.5rem;
-  background-image: linear-gradient(to bottom, #031e2b, #1b678d);
-}
-
-/* historia */
-.card-title {
-  font-size: 1.5rem;
-  font-family: "Lato", sans-serif;
-}
-
-.tani3 {
-  display: none;
-}
-
-/* instructores */
-.card {
-  margin-bottom: 2rem;
-  border-color: #b4b469;
-}
-
-.img-thumbnail {
-  border: 0;
-  border-radius: 0;
-}
-
-/* galeria */
-.card1 {
-  overflow: hidden;
-}
-
-.card-img-top {
-  transition: transform 0.3s ease;
-}
-
-.card-img-top:hover {
-  transform: scale(1.05);
-}
-
-/* calendario */
-.table thead th {
-  background-color: #b4b469;
-  color: #3C3C3B;
-  padding: 16px 8px;
-  font-size: 18px;
-  font-family: "Lato", sans-serif;
-}
-
-tbody {
-  font-size: 16px;
-}
-
-/* contacto */
-.contacto button[type=submit] {
-  background: #333333;
-  border-color: #fff;
-  padding: 10px 20px;
-  color: #fff;
-  font-weight: 600;
-  font-size: 20px;
-  transition: 0.4s;
-}
-
-.contacto button[type=submit]:hover {
-  background: #333333;
-  border-color: #fff;
-  font-size: 21px;
-  color: #fff;
-}
-
-i.bi.bi-send-check {
-  color: #b4b469;
 }
 
 /*# sourceMappingURL=styles.css.map */
