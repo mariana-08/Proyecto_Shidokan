@@ -65,7 +65,7 @@ header .rs {
   align-items: center;
   justify-content: center;
 }
-header .rrss .f-rrss {
+header .rrss {
   text-decoration: none;
   padding: 10px;
 }
@@ -145,6 +145,15 @@ footer.footer .foot-text {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-top: 10px;
+}
+footer.footer .f-rrss {
+  text-decoration: none;
+  padding: 10px;
+}
+footer.footer .f-rrss img {
+  width: 32px;
+  height: 32px;
   margin-top: 10px;
 }
 footer.footer .foot-rs {

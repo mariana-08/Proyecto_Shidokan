@@ -22,18 +22,26 @@ footer.footer{
     flex-direction: column;
     margin-top: 10px;
   }
-  .foot-rs { 
-    @include flex-center;
-  
-    a {
-      font-size: 0;
-      display: block;
-      transition: transform 0.3s ease;  
-    
-      &:hover {
-        transform: scale(1.3);
+  .f-rrss {
+    text-decoration:none;
+    padding: 10px;
+      img{
+        width:32px;
+        height:32px;
+        margin-top: 10px;  
       }
-    }
+  }
+  .foot-rs { 
+    @include flex-center;  
+      a {
+        font-size: 0;
+        display: block;
+        transition: transform 0.3s ease;  
+      
+        &:hover {
+          transform: scale(1.3);
+        }
+      }
   }
   
   .Copyright {  
