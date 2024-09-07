@@ -10,16 +10,13 @@
 }
 @media (max-width: 991px) {
   header .logodojo .log {
-    width: 60%;
+    width: 70%;
     margin: 10px 0;
   }  
   header .head-dojo h1{
     font-size: 2.7rem;
    } 
-  //  header .head-dojo {
-  //   display: flex;
-  //   align-items: center;
-  // } 
+  
   header .menu-principal {
     background-color: $white;
   }
@@ -54,15 +51,23 @@
   footer .foot-log {
     @include flex-center;
   }
-  footer .foot-log img {
+  footer .footer .foot-log img {
     width: 45%;
   }
-  footer .foot-text .tit {
-    font-size: 1.8rem;  
-  } 
+  footer .footer .foot-text .tit {
+    font-size: 1.8rem;
+  }
 }
 
 @media (max-width: 768px) {
+  header .logodojo .log {
+    width: 70%;
+    margin: 10px 0;
+  }  
+  header .head-dojo h1{
+    font-size: 2.5rem;
+   } 
+
   .historia .hist-im {
     display: flex;
     justify-content: space-around;

@@ -192,7 +192,7 @@ footer.footer .copy {
 }
 @media (max-width: 991px) {
   header .logodojo .log {
-    width: 60%;
+    width: 70%;
     margin: 10px 0;
   }
   header .head-dojo h1 {
@@ -235,14 +235,21 @@ footer.footer .copy {
     align-items: center;
     justify-content: center;
   }
-  footer .foot-log img {
+  footer .footer .foot-log img {
     width: 45%;
   }
-  footer .foot-text .tit {
+  footer .footer .foot-text .tit {
     font-size: 1.8rem;
   }
 }
 @media (max-width: 768px) {
+  header .logodojo .log {
+    width: 70%;
+    margin: 10px 0;
+  }
+  header .head-dojo h1 {
+    font-size: 2.5rem;
+  }
   .historia .hist-im {
     display: flex;
     justify-content: space-around;
