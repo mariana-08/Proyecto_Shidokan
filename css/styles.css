@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-footer.footer .copy, .table thead th, p.import {
+footer .footer .copy, .table thead th, p.import {
   text-align: center;
 }
 
@@ -221,50 +221,48 @@ i.bi.bi-send-check {
 }
 
 /* footer */
-footer.footer {
+footer .footer {
   background-color: #3C3C3B;
   color: #fff;
 }
-footer.footer .foot-log {
+footer .footer .foot-log {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 15px 0 10px;
 }
-footer.footer .foot-log img {
+footer .footer .foot-log img {
   width: 25%;
 }
-footer.footer .tit {
+footer .footer .tit {
   font-size: 2rem;
   font-family: "Alexandria";
   margin-bottom: 0;
 }
-footer.footer .foot-text {
+footer .footer .foot-text {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   margin-top: 10px;
 }
-footer.footer .Copyright {
+footer .footer .Copyright {
   border-top: solid 1px #ddd;
 }
-footer.footer .copy {
+footer .footer .copy {
   padding: 10px;
 }
-
-.foot-rs {
+footer .footer .foot-rs {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
-.foot-rs a {
+footer .footer .foot-rs a {
   font-size: 0;
   display: block;
   transition: transform 0.3s ease;
 }
-.foot-rs a:hover {
+footer .footer .foot-rs a:hover {
   transform: scale(1.3);
 }
 
