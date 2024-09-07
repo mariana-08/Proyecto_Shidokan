@@ -7,11 +7,12 @@ footer.footer{
   .foot-log {
     @include flex-center;
     padding: 15px 0 10px;
+  }
    
-    img {
+  .foot-log img {
       width: 25%;
     }
-  }
+  
   .tit {
     font-size: 2rem;
     font-family: $fuente1;
