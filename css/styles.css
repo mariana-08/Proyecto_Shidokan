@@ -69,7 +69,7 @@ header .rrss .f-rrss {
   text-decoration: none;
   padding: 10px;
 }
-header .rs a {
+header .rs .foot-rs a {
   font-size: 0;
   display: block;
   transition: transform 0.3s ease;
