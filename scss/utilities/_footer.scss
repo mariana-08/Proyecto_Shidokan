@@ -19,7 +19,7 @@ footer.footer{
     }
     .foot-text {
         @include flex-center;
-        flex-direction: column;
+        // flex-direction: column;
         margin-top: 10px;
     }
     .foot-rs { 
