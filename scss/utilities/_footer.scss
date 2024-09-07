@@ -3,14 +3,14 @@
 footer.footer{
     background-color:#3C3C3B;
     color: $white;
-  }
+  
   .foot-log {
     @include flex-center;
     padding: 15px 0 10px;
    
-  }
-  .foot-log img {
-    width: 25%;
+    img {
+      width: 25%;
+    }
   }
   .tit {
     font-size: 2rem;
@@ -24,15 +24,17 @@ footer.footer{
   }
   .foot-rs { 
     @include flex-center;
+  
+    a {
+      font-size: 0;
+      display: block;
+      transition: transform 0.3s ease;  
+    
+      &:hover {
+        transform: scale(1.3);
+      }
+    }
   }
-//   .foot-rs a {
-//     font-size: 0;
-//     display: block;
-//     transition: transform 0.3s ease;  
-//    }
-//   .foot-rs a:hover {
-//     transform: scale(1.3);
-//   }
   
   .Copyright {  
     border-top:solid 1px #ddd;
@@ -41,3 +43,4 @@ footer.footer{
     @extend %text-center;
     padding: 10px;
   }
+}

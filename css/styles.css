@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-.table thead th, p.import, .copy {
+.table thead th, p.import, footer.footer .copy {
   text-align: center;
 }
 
@@ -69,7 +69,7 @@ header .rrss .f-rrss {
   text-decoration: none;
   padding: 10px;
 }
-header .rs .foot-rs a {
+header .rs a {
   font-size: 0;
   display: block;
   transition: transform 0.3s ease;
@@ -126,43 +126,44 @@ footer.footer {
   background-color: #3C3C3B;
   color: #fff;
 }
-
-.foot-log {
+footer.footer .foot-log {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 15px 0 10px;
 }
-
-.foot-log img {
+footer.footer .foot-log img {
   width: 25%;
 }
-
-.tit {
+footer.footer .tit {
   font-size: 2rem;
   font-family: "Alexandria", sans-serif;
   margin-bottom: 0;
 }
-
-.foot-text {
+footer.footer .foot-text {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   margin-top: 10px;
 }
-
-.foot-rs {
+footer.footer .foot-rs {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
-.Copyright {
+footer.footer .foot-rs a {
+  font-size: 0;
+  display: block;
+  transition: transform 0.3s ease;
+}
+footer.footer .foot-rs a:hover {
+  transform: scale(1.3);
+}
+footer.footer .Copyright {
   border-top: solid 1px #ddd;
 }
-
-.copy {
+footer.footer .copy {
   padding: 10px;
 }
 
