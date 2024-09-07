@@ -3,10 +3,6 @@
   padding: 0;
 }
 
-body h4, body h3, body h2 {
-  padding: 10px 0;
-}
-
 body {
   font-family: "Lato", sans-serif;
   color: #333333;
@@ -16,18 +12,19 @@ body h1 {
   font-size: 4rem;
   color: #b4b469;
 }
-body h2 {
+body h2, body h3, body h4 {
   font-family: "Alexandria", sans-serif;
+  padding: 10px 0;
+}
+body h2 {
   font-size: 3rem;
   color: #b4b469;
 }
 body h3 {
-  font-family: "Alexandria", sans-serif;
   font-size: 1.7em;
   color: #333333;
 }
 body h4 {
-  font-family: "Alexandria", sans-serif;
   font-size: 1.6rem;
   color: #333333;
 }

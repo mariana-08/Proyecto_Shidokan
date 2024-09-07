@@ -10,38 +10,43 @@ $colordorado:#b4b469;
 $fuente1:"Alexandria", sans-serif;
 $fuentetext:"Lato", sans-serif;
 
-//como ver el padding de h2,h3,h4 con extend
-%relleno {
-    padding: 10px 0;
+// Usar mixin para mayor flexibilidad
+@mixin relleno($padding: 10px 0) {
+    padding: $padding;
 }
-//
+
+//mixin
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
 //seguimos con declaraciones
 body {
     font-family: $fuentetext;
     color: $colorprimario; 
   
       h1 {
-          font-family: $fuente1;
-          font-size: 4rem;
-          color: $colordorado;
+        font-family: $fuente1;
+        font-size: 4rem;
+        color: $colordorado;
       }
-      h2 {
-      font-family: $fuente1; 
+      h2, h3, h4 {
+        font-family: $fuente1;
+        @include relleno;
+    }
+      h2 {      
       font-size: 3rem;
-      color: $colordorado;
-      @extend%relleno;
+      color: $colordorado;      
       }
       h3 {
-          font-family: $fuente1; 
-          font-size: 1.7em;
-          color: $colorprimario;
-          @extend%relleno;
+        font-size: 1.7em;
+        color: $colorprimario;         
       }
-      h4 {
-          font-family: $fuente1; 
-          font-size: 1.6rem;
-          color: $colorprimario;
-          @extend%relleno;
+      h4 {        
+        font-size: 1.6rem;
+        color: $colorprimario;
       }
   }
   
