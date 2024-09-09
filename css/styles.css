@@ -187,11 +187,11 @@ p.import {
 }
 
 /* galeria */
-.galer {
+.galeria .img-galer {
   transition: transform 0.5s ease;
 }
 
-.galer {
+.galeria .img-galer {
   transform: scale(0.95);
 }
 
