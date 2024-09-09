@@ -178,6 +178,14 @@ p.import {
   border-radius: 0;
 }
 
+.instruc {
+  transition: transform 0.3s ease;
+}
+
+.instruc:hover {
+  transform: scale(0.97);
+}
+
 /* galeria */
 .card1 {
   overflow: hidden;

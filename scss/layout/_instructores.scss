@@ -8,3 +8,9 @@
     border: 0;
     border-radius: 0; 
   }
+  .instruc {
+    transition: transform 0.3s ease;
+  }
+  .instruc:hover {  
+    transform: scale(0.97); 
+} 
