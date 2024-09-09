@@ -187,14 +187,6 @@ p.import {
 }
 
 /* galeria */
-.galeria .img-galer {
-  transition: transform 0.5s ease;
-}
-
-.galeria .img-galer {
-  transform: scale(0.95);
-}
-
 /* calendario */
 .table thead th {
   background-color: #b4b469;
